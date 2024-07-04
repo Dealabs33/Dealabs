@@ -1,0 +1,40 @@
+body {
+	font-family: Bodoni,serif;
+	background-color: #A1C9F2;
+}
+.container {
+	max-width: 400px;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #ADD8E6;
+	border: 1px solid #FFFFFF;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+label {
+	margin-bottom: 3px;
+}
+input, select {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 30px;
+	border: 3px solid #ccc;
+}
+button {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#result {
+	margin-top: 20px;
+	font-size: 24px;
+	font-weight: itallic;
+	color: #666;
+}
